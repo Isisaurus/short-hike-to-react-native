@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { Text, View } from 'react-native'
 import { StatusBar } from 'expo-status-bar'
 import { Link } from 'expo-router'
 
