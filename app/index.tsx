@@ -6,9 +6,9 @@ import { Link } from 'expo-router'
 const App = () => {
     return (
         <View>
-            <Text>App!!!</Text>
+            <Text className='text-3xl text-black'>App!!!</Text>
             <StatusBar style='auto' />
-            <Link href={'/profile'} style={{ color: 'blue' }}>Go to Profile</Link>
+            <Link href={'/profile'} className='font-black'>Go to Profile</Link>
         </View>
     )
 }
